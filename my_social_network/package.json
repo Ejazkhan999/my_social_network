@@ -1,0 +1,42 @@
+{
+  "name": "my_social_network",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "cross-env NODE_ENV=development nodemon app",
+    "postinstall": "node ./scripts/post-install.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "connect-mongo": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.17.1",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.7.6",
+    "http": "0.0.1-security",
+    "json": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.15",
+    "morgan": "^1.10.0",
+    "npm-git-install": "^0.3.0",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "run": "^1.4.0",
+    "socket.io": "^3.0.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.6"
+  }
+}
